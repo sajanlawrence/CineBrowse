@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct CineBrowseApp: App {
+    @State private var showLoadingView: Bool = true
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ZStack{
+                HomeView()
+                if showLoadingView{
+                    LoadingView(showLoadingView: $showLoadingView)
+                }
+                
+            }
         }
     }
 }
