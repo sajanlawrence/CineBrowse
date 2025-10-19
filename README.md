@@ -59,9 +59,15 @@ CineBrowse is a beautifully crafted SwiftUI movie browsing app that allows users
       <strong>Search Page UI</strong><br>
       <img src="Assets/pic2.png" alt="Search Page" width="250"/>
     </td>
+  </tr>
+  <tr>
     <td align="center">
       <strong>Detail Page</strong><br>
       <img src="Assets/pic3.png" alt="Detail Page" width="250"/>
+    </td>
+        <td align="center">
+      <strong>Detail Page</strong><br>
+      <img src="Assets/pic4.png" alt="Detail Page" width="250"/>
     </td>
   </tr>
 </table>
